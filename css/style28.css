@@ -1,0 +1,30 @@
+/* .text {
+    transition: 1s ease;
+    transform: scale(0.9);
+    color: lightblue;
+    background-color: lightgray;
+    font-size: 100px;
+    padding: 20px;
+
+} */
+
+.shape_circle {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    color: red;
+}
+.shape_rectangle {
+    height: 150px;
+    width: 150px;
+    color: red;
+}
+.shape_triangle {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    color: red;
+}
+.hide {
+    display: none;
+}
