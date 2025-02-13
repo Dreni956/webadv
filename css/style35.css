@@ -13,3 +13,37 @@
 .prev:hover , .next:hover{
     background-color: rgb(0, 0, 0 , 0.8);
 }
+
+nav{
+    overflow: hidden;
+    background-color: #06206a;
+    position: relative;
+    max-width: 400px;
+}
+
+nav #myLinks{
+    display: none;
+}
+nav a, button{
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+nav button.icon{
+    background-color: #06206a;
+    display: block;
+    position: relative;
+    margin-top: 10px;
+    right: 10px;
+    top: 0;
+    border: none;
+}
+nav a:hover{
+    background-color: white;
+    color: black;
+}
+nav button:hover{
+    background-color: blue;
+}

@@ -1,5 +1,4 @@
 // var slideshow = 1;
-
 // function showSlides(n){
 //     var i;
 //     var slides = document.getElementsByClassName('slide');
@@ -24,7 +23,7 @@
 // showSlides(1);
 
 function search(){
-    var input , filter , ul , li ,a ,i. textValue
+    var input , filter , ul , li ,a ,i, textValue
     input = document.getElementById('Myinput')
     filter = input.value.toUpperCase();
     ul = document.getElementById('myList')
@@ -37,5 +36,15 @@ function search(){
         }else{
             li[i].style.display = 'none'
         }
+    }
+}
+
+
+function openMenu (){
+    var menu = document.getElementById('myLinks')
+    if(menu.style.display === 'none'){
+        menu.style.display = 'block';
+    }else{
+        menu.style.display = 'none';
     }
 }
